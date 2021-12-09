@@ -1,0 +1,12 @@
+@import "~antd/dist/antd.css";
+
+body {
+  font-family: "Source Sans Pro", sans-serif;
+}
+
+.main-color {
+  color: #f27a1a;
+}
+.bg-main-color {
+  background-color: #f27a1a;
+}

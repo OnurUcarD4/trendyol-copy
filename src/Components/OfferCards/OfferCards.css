@@ -1,0 +1,35 @@
+.card-bg-color {
+  background-color: #fffaf6;
+}
+.card-border-color {
+  border-color: #f2e5da;
+}
+.discount:hover {
+  color: #f27a1a;
+  transition: ease 0.2s;
+}
+.discount {
+  transition: ease 0.2s;
+}
+.market-card-color {
+  background-color: #fffef8;
+}
+.market-rating-color {
+  background-color: #bac82d;
+}
+.market-rating-border {
+  border-radius: 4px;
+}
+.follower-color {
+  color: #999;
+}
+.buyer-color {
+  color: #16be48;
+}
+.more-comments:hover {
+  color: #f27a1a;
+  transition: ease 0.2s;
+}
+.more-comments {
+  transition: ease 0.2s;
+}

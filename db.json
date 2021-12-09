@@ -1,0 +1,90 @@
+{
+  "Product": {
+    "Id": 1,
+    "ProductName": "Gri Selanik Örme Elbise",
+    "BrandName": "TRENDYOLMİLLA",
+    "Barcode": "TWOAW20EL1110",
+    "Seller": "Trendyol",
+    "Rating": 4.5,
+    "ReviewCount": 832,
+    "OldPrice": "119.99",
+    "Price": "95.99",
+    "Discount": 20,
+    "Variants": [
+      {
+        "Id": 2,
+        "ImageUrl": "https://cdn.dsmcdn.com/mnresize/128/192/ty181/product/media/images/20210921/18/134892446/220065703/1/1_org_zoom.jpg"
+      },
+      {
+        "Id": 3,
+        "ImageUrl": "https://cdn.dsmcdn.com/mnresize/128/192/ty171/product/media/images/20210909/13/127942185/55931626/1/1_org_zoom.jpg"
+      },
+      {
+        "Id": 4,
+        "ImageUrl": "https://cdn.dsmcdn.com/mnresize/128/192/ty157/product/media/images/20210814/19/118623223/220065738/1/1_org_zoom.jpg"
+      },
+      {
+        "Id": 5,
+        "ImageUrl": "https://cdn.dsmcdn.com/ty154/product/media/images/20210805/12/115856172/55931629/1/1_org_zoom.jpg"
+      }
+    ],
+    "Size": [
+      {
+        "Id": 7,
+        "Name": "XS",
+        "InStock": true
+      },
+      {
+        "Id": 8,
+        "Name": "S",
+        "InStock": true
+      },
+      {
+        "Id": 9,
+        "Name": "M",
+        "InStock": false
+      },
+      {
+        "Id": 10,
+        "Name": "L",
+        "InStock": false
+      },
+      {
+        "Id": 11,
+        "Name": "XL",
+        "InStock": true
+      }
+    ]
+  },
+
+  "Slider": [
+    {
+      "Id": 1,
+      "ImageUrl": "https://cdn.dsmcdn.com/ty154/product/media/images/20210805/12/115856172/55931629/1/1_org_zoom.jpg"
+    },
+    {
+      "Id": 2,
+      "ImageUrl": "https://cdn.dsmcdn.com/ty155/product/media/images/20210805/12/115856172/55931629/2/2_org_zoom.jpg"
+    },
+    {
+      "Id": 3,
+      "ImageUrl": "https://cdn.dsmcdn.com/ty155/product/media/images/20210805/12/115856172/55931629/3/3_org_zoom.jpg"
+    },
+    {
+      "Id": 4,
+      "ImageUrl": "https://cdn.dsmcdn.com/ty155/product/media/images/20210805/12/115856172/55931629/4/4_org_zoom.jpg"
+    },
+    {
+      "Id": 5,
+      "ImageUrl": "https://cdn.dsmcdn.com/ty153/product/media/images/20210805/12/115856172/55931629/5/5_org_zoom.jpg"
+    },
+    {
+      "Id": 6,
+      "ImageUrl": "https://cdn.dsmcdn.com/ty14/product/media/images/20200929/13/12463201/55931629/1/1_org_zoom.jpg"
+    },
+    {
+      "Id": 7,
+      "ImageUrl": "https://cdn.dsmcdn.com/ty14/product/media/images/20200929/13/12463201/55931629/2/2_org_zoom.jpg"
+    }
+  ]
+}

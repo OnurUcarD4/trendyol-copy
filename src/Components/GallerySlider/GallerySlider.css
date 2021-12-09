@@ -1,0 +1,10 @@
+.textshadow {
+  text-shadow: 0 0 3px #000000;
+}
+.paging-photo li {
+  border: transparent 1px solid;
+}
+.paging-photo li:hover {
+  border: #f27f23 1px solid;
+  border-radius: 6px;
+}
