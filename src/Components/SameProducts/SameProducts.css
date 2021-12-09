@@ -1,0 +1,45 @@
+.slick-slide {
+  margin-right: 15px;
+}
+.absolute-arrow-left {
+  position: absolute;
+  top: 63rem;
+  left: 22rem;
+  transform: rotate(180deg);
+  opacity: 50%;
+}
+.absolute-arrow-left:hover {
+  position: absolute;
+  top: 63rem;
+  left: 22rem;
+  transform: rotate(180deg);
+  opacity: 100%;
+}
+.absolute-arrow-right {
+  position: absolute;
+  top: 63rem;
+  right: 22rem;
+  opacity: 50%;
+}
+.absolute-arrow-right:hover {
+  position: absolute;
+  top: 63rem;
+  right: 22rem;
+  opacity: 100%;
+}
+.discount-color {
+  color: #999;
+}
+.border-discount {
+  border: 1px solid #f27a1a;
+  border-radius: 4px;
+}
+.like-absolute {
+  position: absolute;
+  top: 8px;
+  right: 5px;
+  cursor: pointer;
+}
+.heart-color:hover {
+  color: #f27a1a;
+}

@@ -6,6 +6,8 @@ import { useEffect, useState } from "react";
 import axios from "axios";
 import { Link } from "react-router-dom";
 import OfferCards from "./Components/OfferCards/OfferCards";
+import SameProducts from "./Components/SameProducts/SameProducts";
+import ReviewProducts from "./Components/ReviewProducts/ReviewProducts";
 
 function App() {
   const [product, setProduct] = useState({ Variants: [] });
@@ -19,9 +21,9 @@ function App() {
 
   return (
     <div className=" w-full h-full ">
-      <div className="px-80 py-10  h-full w-full">
-        <div className="grid grid-cols-4 gap-10">
-          <div className="col-span-3 ">
+      <div className="px-96 py-10  h-full w-full">
+        <div className="flex gap-4">
+          <div className=" ">
             {" "}
             <div className="">
               <Breadcrumb separator=">">
@@ -72,16 +74,23 @@ function App() {
                 </Breadcrumb.Item>
               </Breadcrumb>
             </div>
-            <div className="rounded-md  border mt-4 flex h-full">
+            <div className="rounded-md  border mt-4 flex  ">
               <Galleryslider />
               {product.Variants.length > 0 ? (
                 <ItemInfo product={product} />
               ) : null}
             </div>
           </div>
+
           <div className="">
             <OfferCards />
           </div>
+        </div>
+        <div className="">
+          <SameProducts />
+        </div>
+        <div className="">
+          <ReviewProducts />
         </div>
       </div>
     </div>

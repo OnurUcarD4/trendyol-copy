@@ -1,0 +1,33 @@
+.buyer-color {
+  color: #999;
+}
+.store-color {
+  color: #666;
+}
+.buy-color {
+  color: #16be48;
+}
+.like-comment {
+  color: #666;
+  transition: ease 0.2s;
+  cursor: pointer;
+}
+.like-comment:hover {
+  color: #f27a1a;
+  transition: ease 0.2s;
+}
+.ellipsis {
+  opacity: 50%;
+}
+.ellipsis:hover {
+  opacity: 75%;
+  cursor: pointer;
+}
+.more-comments-button:hover {
+  color: #f27a1a;
+  transition: ease 0.2s;
+  border-color: #f27a1a;
+}
+.more-comments-button {
+  transition: ease 0.2s;
+}

@@ -17,7 +17,7 @@ const OfferCards = () => {
             <Divider className="m-0 p-0" />
           </div>
           <div className="flex flex-col">
-            <div className="flex">
+            <div className="flex justify-between pr-2">
               <i class="fas fa-tag text-xs mr-2 ml-2 mt-3 main-color"></i>
               <a
                 href="https://www.trendyol.com/sepet"
@@ -49,13 +49,14 @@ const OfferCards = () => {
             <span className="ml-2 market-rating-color px-1 market-rating-border text-white font-semibold text-xs tracking-widest">
               8.9
             </span>
+
             <i class="fas fa-info-circle ml-1 text-xs main-color"></i>
           </div>
           <div className="w-50">
             <Divider className="m-0 p-0" />
           </div>
           <div className="flex flex-col">
-            <div className="flex">
+            <div className="flex justify-between pr-2">
               <div className="mt-3">
                 <i class="fas fa-store-alt px-3 text-xs main-color"></i>
                 <a
