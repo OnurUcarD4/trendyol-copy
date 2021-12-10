@@ -8,6 +8,7 @@ import { Link } from "react-router-dom";
 import OfferCards from "./Components/OfferCards/OfferCards";
 import SameProducts from "./Components/SameProducts/SameProducts";
 import ReviewProducts from "./Components/ReviewProducts/ReviewProducts";
+import ProductDetail from "./Components/ProductDetail/ProductDetail";
 
 function App() {
   const [product, setProduct] = useState({ Variants: [] });
@@ -82,16 +83,11 @@ function App() {
             </div>
           </div>
 
-          <div className="">
-            <OfferCards />
-          </div>
+          <OfferCards />
         </div>
-        <div className="">
-          <SameProducts />
-        </div>
-        <div className="">
-          <ReviewProducts />
-        </div>
+        <SameProducts />
+        <ReviewProducts />
+        <ProductDetail />
       </div>
     </div>
   );

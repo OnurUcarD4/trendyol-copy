@@ -57,8 +57,8 @@ const ReviewProducts = () => {
   );
   return (
     <div className="mt-2">
-      <span className="font-semibold text-xl mb-2">Ürün Değerlendirmeleri</span>
-      <div className="border rounded-md mt-2">
+      <span className="font-semibold text-xl ">Ürün Değerlendirmeleri</span>
+      <div className="border rounded-md mt-4">
         <div className="p-4 flex items-center">
           <span className="text-3xl font-semibold">4.5</span>
           <Rate className="text-2xl ml-2" disabled allowHalf value={4.5} />
