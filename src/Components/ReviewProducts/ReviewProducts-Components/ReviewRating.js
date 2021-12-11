@@ -86,7 +86,7 @@ const ReviewRating = () => {
           </a>
         </Dropdown>
 
-        <span className="tracking-wide ml-64">
+        <span className="tracking-wide lg:ml-64 sm:ml-0">
           838 Değerlendirme | 563 Yorum
         </span>
       </div>

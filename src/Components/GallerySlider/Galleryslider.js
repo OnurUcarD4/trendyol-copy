@@ -42,7 +42,7 @@ const Galleryslider = (props) => {
             <GallerySliderButtons sliderRef={sliderRef} />
           </div>
 
-          <Slider ref={sliderRef} className="w-96" {...settings}>
+          <Slider ref={sliderRef} className="w-96 " {...settings}>
             {sliderItem.map((x) => {
               return (
                 <div key={x.Id}>
