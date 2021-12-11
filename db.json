@@ -54,7 +54,10 @@
         "Name": "XL",
         "InStock": true
       }
-    ]
+    ],
+    "ShipTime": 1,
+    "Favorite": "41235",
+    "RefundRequirement": "<div class='font-serif'>İade süresi teslimat tarihinden itibaren 15 gündür. <br> <br> Nasıl İade Ederim? <ul class='list-decimal px-8'><li>trendyol.com ve mobile uygulamalarda yer alan “Hesabım” bölümünden “Siparişlerime” gidin.</li><li>“Sipariş detay” butonuna basın ve siparişinizin detaylarını görüntüleyin.</li><li>Kolay iade butonuna basın.</li><li>İade edilecek ürün ve iade nedeni seçin. Aynı üründen birden fazla satın aldıysanız iade edilecek ürün adedini de seçmeniz gerekir.</li><li>Birden fazla kargo seçeneği çıktığı durumda kargo seçiminizi yapın.</li><li>Ekranda çıkan iade kargo kodunu not alın. İade kargo kodunuza siparişlerim sayfasından ve üyelik mail adresinize gönderilen bilgilendirme mesajından da ulaşabilirsiniz.</li><li>İade edilecek ürünler ile birlikte faturayı tek bir pakete koyun.</li><li>Paketi iade kargo koduyla birlikte seçtiğiniz kargoya 7 gün içinde teslim edin. 7 günü geçirdiğiniz durumda yeniden iade kargo kodu almanız gerekir.</li></ul> <br> İade Koşulları: <br><br>İade edeceğiniz ürünün, paketi hasar görmemiş, kullanılmamış ve kullanım hatası sonucu zarar görmemiş olması gerekmektedir.<br><br>Ürünler kullanılmış, yıpranmış, yıkanmış bir şekilde bize ulaşırsa size geri göndermek zorunda kalabiliriz. Bu durumda ücret iadesi yapılmaz.<br><br>İade etmek istediğiniz ürün/ürünleri tüm aksesuarları ve orijinal kutusu ile faturası ile beraber iade etmeniz gerekmektedir.<br><br>Tek kullanımlık ürünlerin ve hızlı bozulan veya son kullanma tarihi geçme ihtimali olan ürünlerin iadesi kabul edilmemektedir.<br>Kozmetik ve kişisel bakım ürünleri, iç giyim ürünleri, mayo, bikini, kitap, kopyalanabilir yazılım ve programlar, DVD, VCD, CD ve kasetler ile kırtasiye sarf malzemeleri (toner, kartuş, şerit vb.) ancak ambalajı açılmamış, denenmemiş, bozulmamış ve kullanılmamış olmaları halinde iade edilebilir.<br><br>Beyaz eşya (buzdolabı, bulaşık makinesi, çamaşır makinesi, fırınlar [gaz, elektrik, mikrodalga], set üstü ocaklar, aspiratörler, ütüler, vantilatör, ısıtıcılar, soğutucular), televizyon vb. kurulum gerektiren ürünlerin kutuları ürün tarafınıza teslim edildikten sonra yalnızca yetkili servis çalışanları tarafından açılmalıdır. Yetkili servis çalışanlarından önce ürünün kutusunun tarafınızca açılması halinde ürün garanti kapsamı dışında kalabilir.<br><br>Ürün yetkili servis çalışanları tarafından açıldıktan sonra üründe herhangi bir hasar/kusur/ayıp tespit edilmesi halinde yetkili servis çalışanlarına detaylı olarak sorunun not edildiği bir durum tespit tutanağı/servis formu/servis raporu doldurtmanız gerekir. Bu belgeyi aldıktan sonra ürünü iade etmek istemeniz halinde www.trendyol.com internet sitesi üzerinden iade kodu alarak ürünü kargo görevlisine teslim ederek ürünü iade edebilirsiniz.<br><br>Fiyatı finansal piyasalardaki dalgalanmalara bağlı olarak değişen ve satıcı veya sağlayıcının kontrolünde olmayan mal veya hizmetler için cayma hakkı kullanılamaz.</div>"
   },
 
   "Slider": [
@@ -85,6 +88,202 @@
     {
       "Id": 7,
       "ImageUrl": "https://cdn.dsmcdn.com/ty14/product/media/images/20200929/13/12463201/55931629/2/2_org_zoom.jpg"
+    }
+  ],
+  "SameProducts": [
+    {
+      "Id": 1,
+      "ImageUrl": "https://cdn.dsmcdn.com/ty206/product/media/images/20211020/8/152641164/57507695/1/1_org_thumb.jpg",
+      "BrandName": "TRENDYOLMİLLA",
+      "ProductName": "Siyah Kapüşonlu Örme Sweat Elbise TWOAW20EL1554",
+      "Price": "79.99TL",
+      "Discount": null,
+      "DiscountPrice": null,
+      "OldPrice": null
+    },
+    {
+      "Id": 2,
+      "ImageUrl": "https://cdn.dsmcdn.com/ty98/product/media/images/20210404/02/1077ecf6/56213773/1/1_org_thumb.jpg",
+      "BrandName": "Olalook",
+      "ProductName": "Kadın Siyah Likralı Şardonlu Kaşkorse Elbise ELB-190000751",
+      "Price": "69.99TL",
+      "Discount": null,
+      "DiscountPrice": null,
+      "OldPrice": null
+    },
+    {
+      "Id": 3,
+      "ImageUrl": "https://cdn.dsmcdn.com/ty204/product/media/images/20211020/15/152902709/102236397/1/1_org_thumb.jpg",
+      "BrandName": "TRENDYOLMİLLA",
+      "ProductName": "Siyah Kare Yaka Bodycon Örme Elbise TWOAW21EL2241",
+      "Price": "59.99TL",
+      "Discount": null,
+      "DiscountPrice": null,
+      "OldPrice": null
+    },
+    {
+      "Id": 4,
+      "ImageUrl": "https://cdn.dsmcdn.com/ty23/product/media/images/20201119/9/28942660/102243797/1/1_org_thumb.jpg",
+      "BrandName": "TRENDYOLMİLLA",
+      "ProductName": "Bordo Yarım Boğazlı Örme Elbise TWOAW21EL2244",
+      "Price": "59.99TL",
+      "Discount": null,
+      "DiscountPrice": null,
+      "OldPrice": null
+    },
+    {
+      "Id": 5,
+      "ImageUrl": "https://cdn.dsmcdn.com/ty96/product/media/images/20210404/15/b62bc56f/58865002/1/1_org_thumb.jpg",
+      "BrandName": "Olalook",
+      "ProductName": "Kadın Siyah Balıkçı Yaka Balon Kol Salaş Triko Elbise ELB-190000867",
+      "Price": "149.99TL",
+      "Discount": null,
+      "DiscountPrice": null,
+      "OldPrice": null
+    },
+    {
+      "Id": 6,
+      "ImageUrl": "https://cdn.dsmcdn.com/ty174/product/media/images/20210913/17/129542774/235373812/1/1_org_thumb.jpg",
+      "BrandName": "TRENDYOLMİLLA",
+      "ProductName": "Indigo Yarım Boğazlı Örme Elbise TWOAW21EL22424",
+      "Price": "59.99TL",
+      "Discount": null,
+      "DiscountPrice": null,
+      "OldPrice": null
+    },
+    {
+      "Id": 7,
+      "ImageUrl": "https://cdn.dsmcdn.com/ty87/product/media/images/20210403/04/90d08e41/17758663/1/1_org_thumb.jpg",
+      "BrandName": "armonika",
+      "ProductName": "Kadın Siyah Kolu Renkli Balonlu Elbise ARM-19K001215",
+      "Price": "79.95TL",
+      "Discount": null,
+      "DiscountPrice": null,
+      "OldPrice": null
+    },
+    {
+      "Id": 8,
+      "ImageUrl": "https://cdn.dsmcdn.com/ty175/product/media/images/20210916/14/131252105/93013439/1/1_org_thumb.jpg",
+      "BrandName": "TRENDYOLMİLLA",
+      "ProductName": "Kahverengi Kuşaklı Dantel Detaylı Gömlek Elbise...",
+      "Price": "149.99TL",
+      "Discount": null,
+      "DiscountPrice": null,
+      "OldPrice": null
+    },
+    {
+      "Id": 9,
+      "ImageUrl": "https://cdn.dsmcdn.com/ty176/product/media/images/20210913/17/129542774/235373807/1/1_org_thumb.jpg",
+      "BrandName": "TRENDYOLMİLLA",
+      "ProductName": "Antrasit Yarım Boğazlı Örme Elbise TWOAW21EL2244",
+      "Price": "59.99TL",
+      "Discount": null,
+      "DiscountPrice": null,
+      "OldPrice": null
+    },
+    {
+      "Id": 10,
+      "ImageUrl": "https://cdn.dsmcdn.com/ty19/product/media/images/20201105/12/22718974/101311772/1/1_org_thumb.jpg",
+      "BrandName": "tknfashion",
+      "ProductName": "Kadın Kırmızı Esnek Dalgıç Kumaş Bağcık Detaylı Askılı...",
+      "Price": "143.10TL",
+      "Discount": 10,
+      "DiscountPrice": "159",
+      "OldPrice": "199.00"
+    }
+  ],
+  "ReviewProducts": [
+    {
+      "Id": 1,
+      "Comment": "174 boy 69kiloyum L beden aldım beden tam boyu diz üstünde model harika çok beğendim sadece kollarıı biraz daha uzun bekledim ama idare eder. Kesinlikle alın kalınlığı kış için uygun",
+      "Name": "a** g**",
+      "Date": "10 Kasım 2021",
+      "Store": "Trendyol",
+      "CommentLike": "2"
+    },
+    {
+      "Id": 2,
+      "Comment": "Aynısının siyahını da almıştım memnun kaldım ve diğer renkleri de neden olmasın dolabımda dedim. Giy çık bi parça. Beline şık ya da spor bi kemerle ger türlü kombin yapılır. Boyu diz kapağının biraz üzerinde. Mini değil ama uzun da değil. Ama sıcak tutacak mevsimlik de kışlıkta diyebileceğim bi parça",
+      "Name": "R** A**",
+      "Date": "11 Kasım 2021",
+      "Store": "Trendyol",
+      "CommentLike": "3"
+    },
+    {
+      "Id": 3,
+      "Comment": "xl giyiyorum large siparis verdim buyuk geldi medium cok daha iyi olurdu ama urunun arka dikis kisminda yirtik vardi dikise hic girmemis iade etmek zorunda kaldım baya kalin guzel modeli de",
+      "Name": "anıl cenan erdoğan",
+      "Date": "24 Aralık 2019",
+      "Store": "Trendyol",
+      "CommentLike": "0"
+    },
+    {
+      "Id": 4,
+      "Comment": "Aşırı güzel bir ürün rengi ve kumaşı. Kalın kışın giymek için çok iyi. 54 kiloyum normalde M giyiyorum ama S aldım. İyi ki S almışım. Kalıbı hafif geniş. Çok yapılı değilseniz kendi bedeninizden bir küçük beden alabilirsiniz.",
+      "Name": "Ceyda Yüksel",
+      "Date": "3 Aralık 2021",
+      "Store": "Trendyol",
+      "CommentLike": "1"
+    },
+    {
+      "Id": 5,
+      "Comment": "60 boy 57 kg 5,5 aylık hamileyim. M beden aldım. Ama büyük geldi. S alsam daha iyi olurmuş. Büyük almayın, bedeninizi alın. Kumaşı falan gayet güzel, iade etmeyeceğim. Kemerle falan kombinlenir, büyüklüğü belli olmaz.",
+      "Name": "D** A**",
+      "Date": "3 Aralık 2021",
+      "Store": "Trendyol",
+      "CommentLike": "7"
+    }
+  ],
+  "ProductDetail": [
+    {
+      "Id": 1,
+      "Title": "Kol Boyu",
+      "Detail": "Kısa"
+    },
+    {
+      "Id": 2,
+      "Title": "Kumaş Tipi",
+      "Detail": "Örme"
+    },
+    {
+      "Id": 3,
+      "Title": "Materyal",
+      "Detail": "Polyester"
+    },
+    {
+      "Id": 4,
+      "Title": "Kol Tipi",
+      "Detail": "Truvakar Kol"
+    },
+    {
+      "Id": 5,
+      "Title": "Stil",
+      "Detail": "Casual"
+    },
+    {
+      "Id": 6,
+      "Title": "Desen",
+      "Detail": "Düz Renk"
+    },
+    {
+      "Id": 7,
+      "Title": "Kalıp",
+      "Detail": "Bodycon"
+    },
+    {
+      "Id": 8,
+      "Title": "Yaka",
+      "Detail": "Dik Yaka"
+    },
+    {
+      "Id": 9,
+      "Title": "Boy / Ölçü",
+      "Detail": "Midi"
+    },
+    {
+      "Id": 10,
+      "Title": "Renk",
+      "Detail": "Gri"
     }
   ]
 }

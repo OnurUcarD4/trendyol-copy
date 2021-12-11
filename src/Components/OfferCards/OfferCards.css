@@ -23,7 +23,7 @@
 .follower-color {
   color: #999;
 }
-.buyer-color {
+.buyer-colors {
   color: #16be48;
 }
 .more-comments:hover {
@@ -32,4 +32,12 @@
 }
 .more-comments {
   transition: ease 0.2s;
+}
+.ant-dropdown-placement-bottomRight > .ant-dropdown-arrow {
+  border-color: rgb(247, 247, 247) #fff #fff #fff;
+}
+
+.progress-style {
+  width: 120px;
+  margin-left: 2px;
 }

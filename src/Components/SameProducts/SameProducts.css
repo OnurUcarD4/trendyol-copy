@@ -1,5 +1,8 @@
-.slick-slide {
+.product-slider .slick-slide {
   margin-right: 15px;
+}
+.fav-item {
+  color: #f27a1a !important;
 }
 .absolute-arrow-left {
   position: absolute;
@@ -42,4 +45,7 @@
 }
 .heart-color:hover {
   color: #f27a1a;
+}
+#sameproducts .slick-track {
+  padding: 5px;
 }

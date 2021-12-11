@@ -7,7 +7,13 @@
   color: #f27f23;
   font-weight: 700;
 }
+.bg-border {
+  border: 2px solid #f27f23;
+}
 .bg-hover:hover {
+  border: 2px solid #f27f23;
+}
+.size-active {
   border: 2px solid #f27f23;
 }
 .size-hover:hover {
@@ -23,6 +29,22 @@
   );
   color: #e6e6e6;
 }
+.ant-badge .anticon-bell {
+  background-color: #999 !important;
+  border-radius: 50%;
+}
+
+.size-hover:hover .anticon-bell {
+  background-color: #f27f23 !important;
+}
+
+.sold-out-color {
+  background-color: #dddddd;
+}
+.sold-out {
+  color: #666;
+}
+
 .disabled-size:hover {
   background: linear-gradient(
     to bottom left,
@@ -68,4 +90,17 @@
     rgba(255, 255, 255, 0),
     rgba(255, 255, 255, 0.9)
   );
+}
+.ant-modal-content {
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+}
+.fav-item {
+  color: #f27f23;
+}
+.ant-badge-count,
+.ant-badge-dot,
+.ant-badge .ant-scroll-number-custom-component {
+  transform: translate(10%, -32%) !important;
 }

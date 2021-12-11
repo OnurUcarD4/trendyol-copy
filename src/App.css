@@ -10,3 +10,7 @@ body {
 .bg-main-color {
   background-color: #f27a1a;
 }
+
+html {
+  scroll-behavior: smooth;
+}
