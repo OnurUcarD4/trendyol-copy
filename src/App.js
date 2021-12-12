@@ -21,7 +21,7 @@ function App() {
   }, []);
 
   return (
-    <div className=" w-full h-full ">
+    <div className=" w-full h-full">
       <div className="px-96 py-10  h-full w-full">
         <div className="mb-2">
           <Breadcrumb separator=">">

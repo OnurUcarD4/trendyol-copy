@@ -104,3 +104,9 @@
 .ant-badge .ant-scroll-number-custom-component {
   transform: translate(10%, -32%) !important;
 }
+.trendyol-hover {
+  width: 28vw;
+}
+.trendyol-hover-background {
+  background-color: rgba(153, 153, 153, 0.089);
+}

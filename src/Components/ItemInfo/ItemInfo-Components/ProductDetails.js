@@ -1,9 +1,79 @@
 import React, { useState } from "react";
-import { Modal, Divider } from "antd";
+import { Modal, Divider, Dropdown } from "antd";
 
 const ProductDetails = (props) => {
   const { product } = props;
   const [refundModal, setrefundModal] = useState(false);
+  const trendyol = (
+    <div className=" bg-white shadow-xl rounded-sm border  flex items-center justify-center ">
+      <div className="trendyol-hover  flex flex-col">
+        <div className="flex p-2">
+          <div className="">
+            <img
+              className="w-20 p-2"
+              src="https://cdn.dsmcdn.com/web/production/trendyol-marketplace.svg"
+            />
+          </div>
+
+          <Divider type="vertical" style={{ height: 70 }} />
+          <div className="flex flex-col ml-2">
+            <span className=" font-semibold">TRENDYOL PAZARYERİ</span>
+            <span>
+              Tüm satıcılarımız Trendyol hizmet standartlarını garanti eder.
+            </span>
+            <span className="text-xs">
+              <span className="mr-2">
+                <i class="fas fa-sync mt-3 mr-2"></i> Ücretsiz iade
+              </span>
+              <span className="mr-2">
+                <i class="fas fa-shipping-fast mr-2"></i>
+                Hızlı Teslimat
+              </span>
+              <span>
+                <i class="fas fa-phone-volume mr-2"></i>
+                Trendyol Müşteri Desteği
+              </span>
+            </span>
+          </div>
+        </div>
+
+        <div className="">
+          <div className=" flex flex-col trendyol-hover-background mt-2 ">
+            <Divider
+              className="p-0 m-0"
+              style={{ width: 500, backgroundColor: "lightgray", height: 0 }}
+            />
+            <div className="flex flex-col px-4">
+              <span className="text-xs mt-2">
+                Satıcı: <span className="font-semibold">Trendyol</span>
+              </span>
+              <span className="text-xs mt-2">
+                Satıcı Ünvanı:{" "}
+                <span className="font-semibold">
+                  DSM GRUP DANIŞMANLIKİLETİŞ.VE SATIŞ TİC.A.Ş.
+                </span>
+              </span>
+              <span className="text-xs mt-2">
+                İletişim:{" "}
+                <span className="font-semibold">
+                  Satıcının Trendyol tarafından teyit edilmiş e-posta ve
+                  iletişim adresi kayıt altındadır.
+                </span>
+              </span>
+              <span className="text-xs mt-2">
+                Şehir: <span className="font-semibold">İstanbul</span>
+              </span>
+              <span className="text-xs mt-2 mb-4">
+                Vergi Kimlik Numarası:{" "}
+                <span className="font-semibold">3130557669</span>
+              </span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  );
+
   return (
     <div>
       <Divider className="mb-2" />
@@ -42,8 +112,17 @@ const ProductDetails = (props) => {
           </li>
           <li className="text-gray-300 text-lg m">
             <span className="small-desc-text text-xs">
-              Bu ürün <b className="underline">Trendyol</b> tarafından
-              gönderilecektir.
+              Bu ürün{" "}
+              <b className="underline">
+                <Dropdown
+                  arrow={true}
+                  overlay={trendyol}
+                  placement="bottomCenter"
+                >
+                  <a className="text-current">Trendyol</a>
+                </Dropdown>
+              </b>{" "}
+              tarafından gönderilecektir.
             </span>
           </li>
           <li className="text-gray-300 text-lg m">

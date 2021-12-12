@@ -14,7 +14,7 @@ const Variants = (props) => {
             onClick={toggleClass}
             className={`${
               isActive ? "bg-border" : null
-            }   w-10 mt-2 rounded-md bg-hover  cursor-pointer`}
+            }   w-10 mt-2 rounded-md bg-hover cursor-pointer`}
             src={x.ImageUrl}
           />
         ))}
