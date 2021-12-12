@@ -10,7 +10,10 @@ const GalleryButton = (props) => {
           sliderRef.current.slickPrev();
         }}
       >
-        <img src="https://cdn.dsmcdn.com/web/production/slick-arrow.svg" />
+        <img
+          src="https://cdn.dsmcdn.com/web/production/slick-arrow.svg"
+          alt=""
+        />
       </button>
       <button
         className=" absolute-arrow-right  text-4xl   p-4 text-white  z-10 "
@@ -18,7 +21,10 @@ const GalleryButton = (props) => {
           sliderRef.current.slickNext();
         }}
       >
-        <img src="https://cdn.dsmcdn.com/web/production/slick-arrow.svg" />
+        <img
+          src="https://cdn.dsmcdn.com/web/production/slick-arrow.svg"
+          alt=""
+        />
       </button>
     </div>
   );

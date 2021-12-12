@@ -49,3 +49,7 @@
 #sameproducts .slick-track {
   padding: 5px;
 }
+.active-favorite,
+.favorite-button:hover {
+  color: #f27a1a;
+}

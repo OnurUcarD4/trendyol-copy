@@ -1,5 +1,5 @@
-import React, { useState } from "react";
-import { Rate, Dropdown, Divider, Menu, Modal } from "antd";
+import React from "react";
+import { Rate, Divider } from "antd";
 import LikeComment from "../../OfferCards/OfferCards-Components/LikeComment";
 
 const Comments = (props) => {

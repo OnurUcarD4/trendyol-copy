@@ -12,6 +12,7 @@ const ProductDetails = (props) => {
             <img
               className="w-20 p-2"
               src="https://cdn.dsmcdn.com/web/production/trendyol-marketplace.svg"
+              alt=""
             />
           </div>
 
@@ -119,7 +120,7 @@ const ProductDetails = (props) => {
                   overlay={trendyol}
                   placement="bottomCenter"
                 >
-                  <a className="text-current">Trendyol</a>
+                  <span className="text-current">Trendyol</span>
                 </Dropdown>
               </b>{" "}
               tarafından gönderilecektir.
@@ -158,9 +159,15 @@ const ProductDetails = (props) => {
         <div className="absolute bottom-2 w-full">
           <div className="relative w-full">
             <div className="opacity-layout "></div>
-            <button className=" w-full text-center rounded-md text-xs font-semibold text-gray-600 bg-white border tracking-wide py-2 product-button">
-              ÜRÜNÜN TÜM ÖZELLİKLERİ
-            </button>
+            <a
+              href="#product-details"
+              className="text-current"
+              rel="noreferrer"
+            >
+              <button className=" w-full text-center rounded-md text-xs font-semibold text-gray-600 bg-white border tracking-wide py-2 product-button">
+                ÜRÜNÜN TÜM ÖZELLİKLERİ
+              </button>
+            </a>
           </div>
         </div>
       </div>

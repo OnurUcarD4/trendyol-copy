@@ -5,8 +5,23 @@ import axios from "axios";
 import GalleryButton from "./SameProducts-Components/GalleryButton";
 
 const SameProducts = () => {
-  const [favorite, setFavorite] = useState(false);
   const [sameProduct, setsameProduct] = useState([]);
+
+  const toggleClass = () => {
+    var header = document.getElementById("same-products-slider");
+    var btns = header.getElementsByClassName("favorite-button");
+    console.log(header, btns);
+    for (var i = 0; i < btns.length; i++) {
+      btns[i].addEventListener("click", function () {
+        var current = document.getElementsByClassName("active-favorite");
+        current[0].className = current[0].className.replace(
+          " active-favorite",
+          ""
+        );
+        this.className += " active-favorite";
+      });
+    }
+  };
 
   useEffect(() => {
     (async () => {
@@ -29,24 +44,24 @@ const SameProducts = () => {
       <div className="mt-3 mb-3">
         <span className="font-semibold text-xl">Benzer Ürünler</span>
       </div>
-      <div className="">
+      <div id="same-products-slider">
         <GalleryButton sliderRef={sliderRef} />
         <Slider ref={sliderRef} className="product-slider" {...settings}>
-          {sameProduct.map((x) => {
+          {sameProduct.map((x, i) => {
             if (x.Discount === null) {
               return (
                 <div key={x.Id} style={{ width: 200 }}>
                   <div className="relative">
                     <div className="like-absolute">
                       <i
-                        onClick={() => setFavorite(!favorite)}
-                        class={`${
-                          favorite ? "fav-item" : ""
+                        onClick={toggleClass}
+                        class={` favorite-button ${
+                          i === 0 ? "active-favorite" : ""
                         } far fa-heart bg-white rounded-full heart-color px-2 py-1 shadow-sm text-xl discount-color`}
                       ></i>
                     </div>
                   </div>
-                  <img className="rounded-md" src={x.ImageUrl} />
+                  <img className="rounded-md" alt="" src={x.ImageUrl} />
                   <div className="flex flex-col mt-2">
                     <span className="font-semibold text-xs text-black">
                       {x.BrandName}
@@ -67,14 +82,12 @@ const SameProducts = () => {
                   <div className="relative">
                     <div className="like-absolute">
                       <i
-                        onClick={() => setFavorite(!favorite)}
-                        class={`${
-                          favorite ? "fav-item" : ""
-                        } far fa-heart bg-white rounded-full heart-color px-2 py-1 shadow-sm text-xl discount-color`}
+                        onClick={toggleClass}
+                        class={` favorite-button far fa-heart bg-white rounded-full heart-color px-2 py-1 shadow-sm text-xl discount-color`}
                       ></i>
                     </div>
                   </div>
-                  <img className="rounded-md" src={x.ImageUrl} />
+                  <img className="rounded-md" alt="" src={x.ImageUrl} />
                   <div className="flex flex-col mt-2">
                     <span className="font-semibold text-xs text-black">
                       {x.BrandName}

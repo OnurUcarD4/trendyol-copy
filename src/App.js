@@ -4,7 +4,6 @@ import Galleryslider from "./Components/GallerySlider/Galleryslider";
 import ItemInfo from "./Components/ItemInfo/ItemInfo";
 import { useEffect, useState } from "react";
 import axios from "axios";
-import { Link } from "react-router-dom";
 import OfferCards from "./Components/OfferCards/OfferCards";
 import SameProducts from "./Components/SameProducts/SameProducts";
 import ReviewProducts from "./Components/ReviewProducts/ReviewProducts";
@@ -29,6 +28,7 @@ function App() {
               <a
                 href="https://www.trendyol.com/"
                 target="_blank"
+                rel="noreferrer"
                 className="text-current hover:text-current"
               >
                 Anasayfa
@@ -39,6 +39,7 @@ function App() {
                 href="https://www.trendyol.com/kadin-x-g1"
                 className="text-current hover:current"
                 target="_blank"
+                rel="noreferrer"
               >
                 Kadın
               </a>
@@ -48,6 +49,7 @@ function App() {
                 href="https://www.trendyol.com/kadin-giyim-x-g1-c82"
                 className="text-current hover:current"
                 target="_blank"
+                rel="noreferrer"
               >
                 Giyim
               </a>
@@ -57,6 +59,7 @@ function App() {
                 href="https://www.trendyol.com/kadin-elbise-x-g1-c56"
                 className="text-current hover:current"
                 target="_blank"
+                rel="noreferrer"
               >
                 Elbise
               </a>
@@ -66,6 +69,7 @@ function App() {
                 href="https://www.trendyol.com/trendyolmilla-kadin-elbise-x-b101476-g1-c56"
                 className="text-current hover:current"
                 target="_blank"
+                rel="noreferrer"
               >
                 TRENDYOLMİLLA Elbise
               </a>

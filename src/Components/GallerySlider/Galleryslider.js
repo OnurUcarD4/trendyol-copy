@@ -28,6 +28,7 @@ const Galleryslider = (props) => {
         <img
           className="rounded-md  hover:border-red-500"
           src={sliderItem.length > 0 ? sliderItem[i].ImageUrl : ""}
+          alt=""
         />
       );
     },
@@ -50,6 +51,7 @@ const Galleryslider = (props) => {
                     className="border rounded-md"
                     style={{ width: 430, height: 610 }}
                     src={x.ImageUrl}
+                    alt=""
                   />
                 </div>
               );

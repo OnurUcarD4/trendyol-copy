@@ -1,5 +1,5 @@
 import React from "react";
-import { Modal, Dropdown } from "antd";
+import { Dropdown } from "antd";
 import { Rate } from "antd";
 import { Progress } from "antd";
 
@@ -80,18 +80,19 @@ const Ratings = (props) => {
     <div>
       <div className="">
         <Dropdown arrow={true} overlay={rating} placement="bottomCenter">
-          <a>
+          <span>
             <Rate
               className="text-sm"
               allowHalf
               disabled
               value={props.data.Rating}
             />
-          </a>
+          </span>
         </Dropdown>
 
         <span className="text-xs hover:text-yellow-500 hover:underline cursor-pointer">
           <a
+            rel="noreferrer"
             className="text-current hover:current"
             href="https://www.trendyol.com/trendyolmilla/siyah-selanik-orme-elbise-twoaw20el1110-p-31078803/yorumlar?boutiqueId=592132&merchantId=968&v=xs"
             target="_blank"
@@ -102,6 +103,7 @@ const Ratings = (props) => {
         <img
           className="w-5 h-4 inline ml-1 mb-1"
           src="https://cdn.dsmcdn.com/mobile/reviewrating/kamera-emoji6x.png"
+          alt=""
         />
       </div>
     </div>

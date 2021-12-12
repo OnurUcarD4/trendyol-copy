@@ -55,6 +55,10 @@
   );
   color: #f27f23;
 }
+
+.size-active {
+  border-color: #f27f23;
+}
 .ant-modal-body {
   padding: 0 !important;
 }
@@ -109,4 +113,8 @@
 }
 .trendyol-hover-background {
   background-color: rgba(153, 153, 153, 0.089);
+}
+.active,
+.btn:hover {
+  border: 2px solid #f27f23;
 }

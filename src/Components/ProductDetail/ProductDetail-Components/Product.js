@@ -7,6 +7,7 @@ const Product = () => {
         <img
           className="w-44 rounded-md mr-4"
           src="https://cdn.dsmcdn.com/ty154/product/media/images/20210805/12/115856172/55931629/1/1_org_zoom.jpg"
+          alt=""
         />
       </div>
       <div className="">

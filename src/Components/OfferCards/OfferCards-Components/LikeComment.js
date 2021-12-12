@@ -73,18 +73,18 @@ const LikeComment = (props) => {
       <div className="flex">
         <div className="like-comment">
           <Dropdown arrow={true} overlay={likeComment} placement="bottomCenter">
-            <a className="text-current">
+            <div className="text-current">
               <i class="fas fa-thumbs-up market-color opacity-75 mr-1  "></i>
               <span className="text-xs">
                 {console.log(comments)}
                 Yorumu Beğen ({comments.CommentLike})
               </span>
-            </a>
+            </div>
           </Dropdown>
         </div>
 
         <Dropdown overlay={menu} trigger={["click"]} placement="bottomRight">
-          <a className="fas fa-ellipsis-v market-color text-xl ellipsis ml-2 text-current"></a>
+          <div className="fas fa-ellipsis-v market-color text-xl ellipsis ml-2 text-current"></div>
         </Dropdown>
       </div>
     </div>

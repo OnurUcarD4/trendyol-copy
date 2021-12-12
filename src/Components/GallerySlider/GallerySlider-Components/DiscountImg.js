@@ -7,6 +7,7 @@ const DiscountImg = () => {
         <img
           className="absolute w-32 top-32 p-4 z-10"
           src="https://cdn.dsmcdn.com/stamp/firsat.png"
+          alt=""
         />
       </div>
     </div>

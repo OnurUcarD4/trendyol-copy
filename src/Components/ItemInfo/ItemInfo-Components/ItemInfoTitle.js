@@ -10,6 +10,7 @@ const ItemInfoTitle = (props) => {
               className="hover:current text-current"
               href="https://www.trendyol.com/trendyolmilla-x-b101476"
               target="_blank"
+              rel="noopener noreferrer"
             >
               <b className="hover:underline cursor-pointer">
                 {props.data.BrandName}
@@ -23,6 +24,7 @@ const ItemInfoTitle = (props) => {
             <a
               href="https://www.trendyol.com/magaza/trendyol-m-968"
               target="_blank"
+              rel="noopener noreferrer"
               className="font-semibold"
             >
               {props.data.Seller}

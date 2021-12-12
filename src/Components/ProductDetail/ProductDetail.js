@@ -18,7 +18,7 @@ const ProductDetail = () => {
 
   return (
     <div className="mt-5">
-      <div className="mb-4">
+      <div id="product-details" className="mb-4">
         <span className="font-semibold text-xl">Ürün Bilgileri</span>
       </div>
 

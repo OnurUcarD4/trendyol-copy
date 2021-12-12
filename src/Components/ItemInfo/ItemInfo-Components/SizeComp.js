@@ -24,7 +24,10 @@ const SizeComp = (props) => {
           visible={isModalVisible}
           footer={false}
         >
-          <img src="https://cdn.dsmcdn.com/ty165/product/charts/categories/1182/brands/40/4950615d.JPG" />
+          <img
+            src="https://cdn.dsmcdn.com/ty165/product/charts/categories/1182/brands/40/4950615d.JPG"
+            alt=""
+          />
         </Modal>
       </div>
 

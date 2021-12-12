@@ -1,5 +1,4 @@
 import React from "react";
-import { Divider } from "antd";
 
 const CargoDetail = (props) => {
   const { favorite, data } = props;

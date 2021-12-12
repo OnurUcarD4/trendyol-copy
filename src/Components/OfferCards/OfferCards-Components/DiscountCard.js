@@ -20,6 +20,7 @@ const DiscountCard = () => {
               <a
                 href="https://www.trendyol.com/sepet"
                 target="_blank"
+                rel="noopener noreferrer"
                 className="text-gray-700 mt-2 "
               >
                 <span className="font-semibold text-sm tracking-tight discount  ">

@@ -27,6 +27,7 @@ const StoreCard = () => {
           <a
             href="https://www.trendyol.com/magaza/trendyol-m-968"
             target="_blank"
+            rel="noreferrer"
             className="hover:underline"
           >
             <span className="tracking-normal font-semibold text-medium">
@@ -58,6 +59,7 @@ const StoreCard = () => {
               <a
                 href="https://www.trendyol.com/sepet"
                 target="_blank"
+                rel="noreferrer"
                 className="text-gray-700 mt-2 "
               >
                 <span className="discount font-semibold tracking-tight">

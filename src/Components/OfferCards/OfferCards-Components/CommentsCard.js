@@ -43,6 +43,7 @@ const CommentsCard = () => {
                 <a
                   href="https://www.trendyol.com/trendyolmilla/gri-selanik-orme-elbise-twoaw20el1110-p-31078804/yorumlar"
                   target="_blank"
+                  rel="noreferrer"
                 >
                   <button className="mb-2 mt-1 w-full follower-color  text-xs tracking-wider font-semibold more-comments">
                     DAHA FAZLA YORUM

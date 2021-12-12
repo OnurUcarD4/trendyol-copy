@@ -81,7 +81,7 @@ const ReviewRating = () => {
         <span className="text-3xl font-semibold">4.5</span>
         <Rate className="text-2xl ml-2" disabled allowHalf value={4.5} />
         <Dropdown arrow={true} overlay={rating} placement="bottomCenter">
-          <a>
+          <a href="/" rel="noreferrer">
             <i class="fas fa-chevron-down opacity-40 ml-1 text-black"></i>
           </a>
         </Dropdown>
